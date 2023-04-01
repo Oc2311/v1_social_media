@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Card </title>
+    <link rel="stylesheet" href="./card.css">
+    <!-- <link rel="stylesheet" media="screen and(max-width:1250px)" href="phone.css.css" media="phone"> -->
+    <link rel="icon" href="./assets/tiktok-banner-with-watercolor-splatter_69286-194.avif">
+</head>
+
+<body>
+
+    <div class="container">
+
+        <img src="./assets/tiktok-banner-with-watercolor-splatter_69286-194.jpg" alt="logo">
+
+        <ul class="list">
+            <li>Home</li>
+            <li>About</li>
+            <li>conatct</li>
+            <li>more</li>
+        </ul>
+        <div class="ham">
+            <span class="bar1"></span>
+            <span class="bar2"></span>
+            <span class="bar3"></span>
+        </div>
+        <div class="sub">
+            <ul class="nav">
+                <li>Home</li>
+                <li>About</li>
+                <li>Contact</li>
+                <li>More</li>
+            </ul>
+        </div>
+    </div>
+
+
+    <div class="main">
+
+
+        <div class="content">
+            <div class="card">
+                <img src="./assets/Nick Shinde.jpg" alt="">
+                <div class="icon">
+                    <ion-icon name="logo-linkedin"></ion-icon>
+                    <ion-icon name="logo-facebook"></ion-icon>
+                    <ion-icon name="logo-instagram"></ion-icon>
+                </div>
+                <h1>Nick Shinde</h1>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Saepe reiciendis hic perspiciatis porro
+                    voluptates illo nihil corporis emin, quas ab possimus cum? At?</p>
+                <button class="btn">ABOUT</button>
+            </div>
+        </div>
+
+        <div class="content">
+            <div class="card">
+                <img src="./assets/AttANFKs_400x400.jpg" alt="">
+                <div class="icon">
+                    <ion-icon name="logo-linkedin"></ion-icon>
+                    <ion-icon name="logo-facebook"></ion-icon>
+                    <ion-icon name="logo-instagram"></ion-icon>
+                </div>
+                <h1>Avneet Kaur</h1>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Saepe reiciendis hic perspiciatis porro
+                    voluptates illo nihil corporis enim, quas ab possimus cum? At?</p>
+
+                <button class="btn">ABOUT</button>
+            </div>
+        </div>
+
+        <div class="content">
+            <div class="card">
+                <img src="/assets/Siddharth-Nigam.jpg" alt="Siddarth-nigam">
+                <div class="icon">
+                    <ion-icon name="logo-linkedin"></ion-icon>
+                    <ion-icon name="logo-facebook"></ion-icon>
+                    <ion-icon name="logo-instagram"></ion-icon>
+                </div>
+                <h1>Siddharth-Nigam</h1>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Saepe reiciendis hic perspiciatis porro
+                    voluptates illo nihil corporis enim, quas ab possimus cum? At?</p>
+                <button class="btn">ABOUT</button>
+            </div>
+        </div>
+    </div>
+
+
+
+    <script>
+
+        const hamburger = document.querySelector('.ham');
+        const sub = document.querySelector('.sub')
+
+        hamburger.addEventListener('click', () => {
+            hamburger.classList.toggle('active')
+            sub.classList.toggle('sub-active');
+        })
+    </script>
+
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js">
+    </script>
+
+</body>
+
+</html>
